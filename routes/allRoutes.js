@@ -29,6 +29,6 @@ router.put("/update/:id",userController.update );
 
 router.post('/search',userController.search )
 
-router.post('/user/add.html',userController.search)
+router.post('/user/add.html',userController.add)
 
 module.exports = router

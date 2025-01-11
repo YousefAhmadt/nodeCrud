@@ -275,6 +275,7 @@ console.log(err)
 }
 
 const add =(req,res)=>{
+
   req.body.createDate = new Date(); // Set to the current date and time
   req.body.writeDate = new Date(); // Set to the current date and time
 const user =new User(req.body);
